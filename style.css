@@ -1,0 +1,112 @@
+
+
+ 
+body {
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+}
+
+/* this is the compose button styling */
+.button {
+  color: white;
+  background-color: #d3d0cbff;
+  min-height: 35px;
+  width: 400px;
+  border: 2px solid rgb(89, 139, 188);
+}
+
+/*This is how you remove bullets from thee list in an html file*/ 
+.no-bullets {
+  list-style-type: none;
+  padding: 0;
+  color: white;
+ 
+}
+
+#Image {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.heading {
+  margin-right: 200px;
+}
+/* this is for the image at the top left page */
+#Image img {
+  width: 45px;
+  height: 45px;
+  margin: 20px;
+  border: 15px solid white;
+  padding: 1px;
+  background-color: rgb(242, 209, 209);
+  
+}
+
+
+/* this is for adding a background color to the entire left portion of the web page */
+.container {
+  background-color: #9fb1bcff;
+  left: 2px;
+  width: 450px;
+  height: 720px;
+  display: flex;
+  flex-direction: column;
+ 
+}
+
+ /* this is  for adding a background color and styling to the entire middle portion of the webpage */
+.inbox {
+  background-color: #2e5266ff;
+  display: flex;
+  flex-direction: column;
+  left: 452px;
+  width: 445px;
+  height: 720px;
+  
+}
+
+.inbox-item-container {
+  background-color: rgba(255, 255, 255, 0.807);
+}
+
+/* this is how you add date. */
+.datespan {
+  float: right; 
+  }
+  
+  
+  /* this is the time */
+.Timespan {
+  float: right;
+  
+  }
+  /* this is the search for email box from the middle portion of the webpage */
+.searchbox {
+  box-sizing: border-box;
+  border: none;
+  position: relative;
+  top: 1%;
+  
+}
+
+/* this is the styling  and background color for the last portion of the webpage */
+  .message {
+  background-color: #6e8898ff;
+  display: flex;
+  flex-direction: column;
+  left: 897px;
+  width: 620px;
+  height: 720px;
+  top: 0;
+}
+
+
+@media only screen and (max-width: 768px) {
+  body {
+   flex-direction: column;
+  }
+
+}
+
+
